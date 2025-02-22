@@ -1,4 +1,8 @@
+AuthUserFile /home/path../.htpasswd
+AuthGroupFile /dev/null
+AuthName "Input ID and Password."
 AuthType Basic
-AuthName "Input your ID and Password."
-AuthUserFile /home/https://github.com/kichigai-web-ichiran/www.kichigai-web-ichiran.com/blob/main/.htpasswd/.htpasswd
 require valid-user
+<Files ~ "^.(htpasswd|htaccess)$">
+deny from all
+</Files>
