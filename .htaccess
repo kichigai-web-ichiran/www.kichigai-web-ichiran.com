@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Input your ID and Password."
-AuthUserFile https://github.com/kichigai-web-ichiran/www.kichigai-web-ichiran.com/blob/main/.htpasswd/.htpasswd
+AuthUserFile /home/https://github.com/kichigai-web-ichiran/www.kichigai-web-ichiran.com/blob/main/.htpasswd/.htpasswd
 require valid-user
