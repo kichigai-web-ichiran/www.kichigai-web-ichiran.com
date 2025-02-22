@@ -1,8 +1,4 @@
-AuthUserFile /home/path../.htpasswd
-AuthGroupFile /dev/null
-AuthName "Input ID and Password."
 AuthType Basic
+AuthName "Input your ID and Password."
+AuthUserFile /home/ドメイン名/フォルダ名/.htpasswd
 require valid-user
-<Files ~ "^.(htpasswd|htaccess)$">
-deny from all
-</Files>
